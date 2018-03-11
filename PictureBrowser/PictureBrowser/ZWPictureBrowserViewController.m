@@ -13,7 +13,6 @@
 
 @property (nonatomic, strong)   UICollectionView    *collectionView;
 
-
 @end
 
 @implementation ZWPictureBrowserViewController
@@ -22,7 +21,6 @@
     [super viewDidLoad];
     [self setViewFrame];
     self.collectionView.frame = self.view.bounds;
-    
     [_collectionView scrollToItemAtIndexPath:_indexPath atScrollPosition:UICollectionViewScrollPositionLeft animated:NO];
 }
 
@@ -47,6 +45,7 @@
     return _collectionView;
 }
 
+
 - (void)setIndexPath:(NSIndexPath *)indexPath {
     _indexPath = indexPath;
 }
@@ -65,7 +64,6 @@
     PictureBrowserCell *cell = [_collectionView dequeueReusableCellWithReuseIdentifier:@"PictureBrowserCell" forIndexPath:indexPath];
     [cell setPhotoBrowserImgWithImgurl:_dataSources[indexPath.row]];
     cell.imageView.frame = [cell calculateFrameWithImage:cell.imageView.image];
-    
     return cell;
 }
 
@@ -91,5 +89,6 @@
     NSIndexPath *indexPath = [_collectionView indexPathForCell:cell];
     return indexPath;
 }
+
 
 @end
