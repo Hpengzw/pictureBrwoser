@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ZWPictureBrowserAnimator.h"
 
-@interface ZWPictureBrowserViewController : UIViewController
+@interface ZWPictureBrowserViewController : UIViewController<DismissedAnimationDelegate>
+
+/// description
+@property (nonatomic, strong)   NSIndexPath  *indexPath;
+
+/// description
+@property (nonatomic, strong)   NSMutableArray  *dataSources;
 
 @end

@@ -15,6 +15,9 @@
 		1260F97D2053CB4D000B40FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1260F97C2053CB4D000B40FF /* main.m */; };
 		1260F9852053CBC4000B40FF /* ZWPictureBrowserAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1260F9842053CBC4000B40FF /* ZWPictureBrowserAnimator.m */; };
 		1260F9882053CFA2000B40FF /* ZWPictureBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1260F9872053CFA2000B40FF /* ZWPictureBrowserViewController.m */; };
+		12C9BABB2054D77A00442A88 /* ZWPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C9BABA2054D77A00442A88 /* ZWPictureViewController.m */; };
+		12C9BABE2054D8F000442A88 /* PictureCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C9BABD2054D8F000442A88 /* PictureCell.m */; };
+		12C9BAC12054E57500442A88 /* PictureBrowserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 12C9BAC02054E57500442A88 /* PictureBrowserCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		1260F9842053CBC4000B40FF /* ZWPictureBrowserAnimator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWPictureBrowserAnimator.m; sourceTree = "<group>"; };
 		1260F9862053CFA2000B40FF /* ZWPictureBrowserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWPictureBrowserViewController.h; sourceTree = "<group>"; };
 		1260F9872053CFA2000B40FF /* ZWPictureBrowserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWPictureBrowserViewController.m; sourceTree = "<group>"; };
+		12C9BAB92054D77A00442A88 /* ZWPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZWPictureViewController.h; sourceTree = "<group>"; };
+		12C9BABA2054D77A00442A88 /* ZWPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZWPictureViewController.m; sourceTree = "<group>"; };
+		12C9BABC2054D8F000442A88 /* PictureCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureCell.h; sourceTree = "<group>"; };
+		12C9BABD2054D8F000442A88 /* PictureCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureCell.m; sourceTree = "<group>"; };
+		12C9BABF2054E57500442A88 /* PictureBrowserCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureBrowserCell.h; sourceTree = "<group>"; };
+		12C9BAC02054E57500442A88 /* PictureBrowserCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureBrowserCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,10 +77,16 @@
 				1260F96E2053CB4D000B40FF /* AppDelegate.m */,
 				1260F9702053CB4D000B40FF /* ViewController.h */,
 				1260F9712053CB4D000B40FF /* ViewController.m */,
+				12C9BAB92054D77A00442A88 /* ZWPictureViewController.h */,
+				12C9BABA2054D77A00442A88 /* ZWPictureViewController.m */,
 				1260F9862053CFA2000B40FF /* ZWPictureBrowserViewController.h */,
 				1260F9872053CFA2000B40FF /* ZWPictureBrowserViewController.m */,
 				1260F9832053CBC4000B40FF /* ZWPictureBrowserAnimator.h */,
 				1260F9842053CBC4000B40FF /* ZWPictureBrowserAnimator.m */,
+				12C9BABC2054D8F000442A88 /* PictureCell.h */,
+				12C9BABD2054D8F000442A88 /* PictureCell.m */,
+				12C9BABF2054E57500442A88 /* PictureBrowserCell.h */,
+				12C9BAC02054E57500442A88 /* PictureBrowserCell.m */,
 				1260F9732053CB4D000B40FF /* Main.storyboard */,
 				1260F9762053CB4D000B40FF /* Assets.xcassets */,
 				1260F9782053CB4D000B40FF /* LaunchScreen.storyboard */,
@@ -155,8 +170,11 @@
 				1260F9722053CB4D000B40FF /* ViewController.m in Sources */,
 				1260F9852053CBC4000B40FF /* ZWPictureBrowserAnimator.m in Sources */,
 				1260F97D2053CB4D000B40FF /* main.m in Sources */,
+				12C9BABE2054D8F000442A88 /* PictureCell.m in Sources */,
 				1260F96F2053CB4D000B40FF /* AppDelegate.m in Sources */,
+				12C9BABB2054D77A00442A88 /* ZWPictureViewController.m in Sources */,
 				1260F9882053CFA2000B40FF /* ZWPictureBrowserViewController.m in Sources */,
+				12C9BAC12054E57500442A88 /* PictureBrowserCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
